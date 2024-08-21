@@ -6,7 +6,7 @@ export const RootLayout = () => {
   };
 
   return (
-    <div>
+    <div className="bg-white text-gray-500 dark:bg-slate-800 dark:text-slate-200">
       <header>
         <nav>
           <NavLink to="/" style={navStyle}>
